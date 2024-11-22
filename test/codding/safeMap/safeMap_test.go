@@ -1,4 +1,4 @@
-package codding
+package safeMap
 
 import (
 	"fmt"
