@@ -59,7 +59,7 @@ func removeElement(nums []int, val int) int {
 func TestRemoveElement(t *testing.T) {
 	// k = 1
 	nums := []int{3, 2, 2, 3}
-	//nums := []int{3, 2, 2, 3} 判断是否等于3 => 等于   k0
+	//nums := []int{3, 2, 2, 3} 判断是否等于3 => 等于   k
 	//nums := []int{3, 2, 2, 3} 判断是否等于3 => 不等于 k0 = 2
 	//nums := []int{3, 2, 2, 3} 判断是否等于3 => 不等于 k1 = 2
 	//nums := []int{3, 2, 2, 3} 判断是否等于3 => 等于 结束
@@ -78,7 +78,8 @@ func TestRemoveElement(t *testing.T) {
 	left := removeElement(nums, val)
 	fmt.Println(left)
 	fmt.Println(nums)
-
+	//var mao := make(map[string]string)
+	//var aa map[string]string
 }
 
 func removeElement2(nums []int, val int) int {
